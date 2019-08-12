@@ -1852,9 +1852,9 @@ lcov-parse@^0.0.10:
   integrity sha1-GwuP+ayceIklBYK3C3ExXZ2m2aM=
 
 liquidjs@^8.0.2:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-8.5.0.tgz#9ba159a344e91e34544dc2b9f265d7a7e9f473db"
-  integrity sha512-iMeWk5I5JCVJMjWx8q+/DGDg6vVniarBmCeXT0nRk+3ijhFuQMCJQ/M/sXrHkXw5alAZoaDPsRxPerAHdT+5rg==
+  version "8.5.2"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-8.5.2.tgz#b44071f48dfb7f7939d88c7912aee71bd1b4450d"
+  integrity sha512-ZeTeytJNkos0Xhbu3XeGEPbMBMhzJpr9ijIJzZr5FpWp7VS4t/+FDXMpxpKtzRaNc3ah30dhrSxVdCphOaNrlw==
 
 load-json-file@^1.0.0:
   version "1.1.0"
