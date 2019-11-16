@@ -484,9 +484,7 @@ describe('rpc_ts', () => {
 
       it('server dies during transmission', async () => {
         const app = express();
-        const handler: ModuleRpcServer.ServiceHandlerFor<
-          typeof serverStreamServiceDefinition
-        > = {
+        const handler: ModuleRpcServer.ServiceHandlerFor<typeof serverStreamServiceDefinition> = {
           async serverStream(_request, { onReady }) {
             onReady(() => {});
           },
@@ -568,9 +566,7 @@ describe('rpc_ts', () => {
 
       it('error is sent in the trailers if headers have already been sent', async () => {
         const app = express();
-        const handler: ModuleRpcServer.ServiceHandlerFor<
-          typeof serverStreamServiceDefinition
-        > = {
+        const handler: ModuleRpcServer.ServiceHandlerFor<typeof serverStreamServiceDefinition> = {
           async serverStream(_request, { onReady, onMessage }) {
             onReady(() => {});
             onMessage({});
