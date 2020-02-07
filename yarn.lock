@@ -1989,9 +1989,9 @@ lcov-parse@^1.0.0:
   integrity sha1-6w1GtUER68VhrLTECO+TY73I9+A=
 
 liquidjs@^9.1.1:
-  version "9.6.2"
-  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-9.6.2.tgz#137f5b2d1c42a2b19a6ad7e54456ff8228f16dd8"
-  integrity sha512-mcn6rL6nuwSYL1TTfjTcIxoSyp6Dw1crj+6+pCKm5qXpVBkJ1EMKIVIjuEGPrR6JMYZqoxINqU2ScHqSFUPqBw==
+  version "9.7.0"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-9.7.0.tgz#8e020e8456415480f962a6cc4b573d6f5adffd0b"
+  integrity sha512-+XL+2c3gQUAo+HnsxT71a9y/vPdsIeP0O4OyAKlzz7Tc1Az4SCEX4wTes00AyaXeOSPa0RYAfCkrbyMu81rKdg==
 
 load-json-file@^1.0.0:
   version "1.1.0"
