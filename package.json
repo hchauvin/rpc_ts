@@ -20,7 +20,8 @@
     "lodash": "^4.17.5",
     "moment": "^2.14.1",
     "node-jose": "^1.0.0",
-    "query-string": "^6.0.0"
+    "query-string": "^6.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@improbable-eng/grpc-web-node-http-transport": "^0.12.0",
@@ -80,7 +81,9 @@
     "extra-md-ts": "cat README.md | yarn --silent codedown Typescript > readme_code.ts",
     "doc": "ts-node src/site/index.ts",
     "doc:serve": "yarn doc && (cd site/landing && bundle exec jekyll serve)",
-    "doc:deploy": "yarn doc && yarn gh-pages -d site/landing/_site -m '[ci skip] Updates'"
+    "doc:deploy": "yarn doc && yarn gh-pages -d site/landing/_site -m '[ci skip] Updates'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "{./*,typescript/**/*}.{js,jsx,ts,tsx,css,scss,md,json}": "prettier -l",
@@ -95,5 +98,6 @@
     "isomorphic",
     "gRPC-Web",
     "real-time"
-  ]
+  ],
+  "snyk": true
 }
