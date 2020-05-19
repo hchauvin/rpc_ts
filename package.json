@@ -58,7 +58,7 @@
     "tslint-no-circular-imports": "^0.7.0",
     "type-zoo": "^3.4.0",
     "typedoc": "^0.17.0",
-    "typedoc-plugin-external-module-name": "^2.1.0",
+    "typedoc-plugin-external-module-name": "^3.1.0",
     "typescript": "3.8.3"
   },
   "scripts": {
