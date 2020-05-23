@@ -1227,9 +1227,9 @@ fast-text-encoding@^1.0.0:
   integrity sha512-5rQdinSsycpzvAoHga2EDn+LRX1d5xLFsuNG0Kg61JrAT/tASXcLL0nf/33v+sAxlQcfYmWbTURa1mmAf55jGw==
 
 fetch-mock@^9.0.0:
-  version "9.9.1"
-  resolved "https://registry.yarnpkg.com/fetch-mock/-/fetch-mock-9.9.1.tgz#a425fe10931b148843397624c483a0ab0946700a"
-  integrity sha512-XV+ZFdOTNp7eMLbk2xR4ElvdA4t82zlHvqRYBmAZih+nBBG5YemXT2V5Mkb1LuRBlaLlQVcGkz4OLlI2TEAXnw==
+  version "9.10.1"
+  resolved "https://registry.yarnpkg.com/fetch-mock/-/fetch-mock-9.10.1.tgz#1f0a7a3795490956bf4cfd5fa6ff912bc4dc71d3"
+  integrity sha512-pTSLpg/Z9LvoqTRu8S9Aeyu4wsyNHLcqON6F5iw1nLHkSOZ+snKgkijwtOVtVsgNzyiZCq9NHRwGxPRpLwth7A==
   dependencies:
     babel-runtime "^6.26.0"
     core-js "^3.0.0"
